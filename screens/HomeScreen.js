@@ -24,7 +24,7 @@ export default class HomeScreen extends Component {
 
    
    render() {
-    TranslatorConfiguration.setConfig(ProviderTypes.Google,'AIzaSyA6Hd7o9ZBCqR-gbb31MV_pfG3n8utfwLY',this.state.languageCode);
+    TranslatorConfiguration.setConfig(ProviderTypes.Google,'yourApiKey',this.state.languageCode);
 
        return (
 
